@@ -17,12 +17,12 @@
     height: 1800px;
   }
 
-  .six_page_free {
+  .six_page_footer .six_page_free {
     height: calc(50% + 2px);
     top: 35%;
   }
 
-  .red_block {
+  .six_page_footer .red_block {
     width: 40%;
     top: 75%;
   }
@@ -45,12 +45,12 @@
     top: 7%;
   }
 
-  .six_page_free {
+  .six_page_footer .six_page_free {
     height: calc(60% + 2px);
     top: 35%;
   }
 
-  .red_block {
+  .six_page_footer .red_block {
     top: 80%;
   }
 
@@ -78,7 +78,7 @@
 }
 
 @media (max-width: 1560px) {
-  .footer_container {
+  .footer_information .footer_container {
     padding-left: 10%;
     padding-right: 10%;
   }
@@ -89,11 +89,11 @@
     width: 30%;
   }
 
-  .six_page_free {
+  .six_page_footer .six_page_free {
     height: calc(70% + 2px);
   }
 
-  .red_block {
+  .six_page_footer .red_block {
     top: 80%;
   }
 
@@ -117,7 +117,7 @@
 }
 
 @media (max-width: 1500px) {
-  .red_block {
+  .six_page_footer .red_block {
     top: 86%;
   }
 }
@@ -133,7 +133,7 @@
   }
 
   #highlight {
-    top: 36%;
+    top: 40%;
   }
 }
 
@@ -148,12 +148,12 @@
     height: 2000px;
   }
 
-  .six_page_free {
+  .six_page_footer .six_page_free {
     height: calc(80% + 2px);
     top: 40%;
   }
 
-  .red_block {
+  .six_page_footer .red_block {
     top: 100%;
   }
 
@@ -182,7 +182,7 @@
     display: none;
   }
 
-  .menu {
+  .main .menu {
     width: 90%;
     padding-left: 10px;
     padding-right: 10px;
@@ -198,7 +198,7 @@
     width: 70%;
   }
 
-  .footer_container {
+  .footer_information .footer_container {
     padding-left: 3%;
     padding-right: 3%;
   }
@@ -207,12 +207,12 @@
     font-size: 18px;
   }
 
-  .six_page_free {
+  .six_page_footer .six_page_free {
     height: calc(83% + 2px);
     top: 40%;
   }
 
-  .red_block {
+  .six_page_footer .red_block {
     top: 115%;
   }
 
@@ -248,12 +248,12 @@
     display: none;
   }
 
-  .six_page_free {
+  .six_page_footer .six_page_free {
     height: calc(110% + 2px);
     top: 40%;
   }
 
-  .red_block {
+  .six_page_footer .red_block {
     top: 135%;
   }
 }
@@ -266,7 +266,7 @@
 }
 
 @media (max-device-width: 1024px) {
-  .header_content {
+  .first_page .header .header_content {
     width: auto;
   }
 
@@ -284,7 +284,7 @@
     display: flex;
   }
 
-  .menu {
+  .main .menu {
     width: 20%;
     flex-direction: column;
   }
@@ -344,7 +344,7 @@
     margin-left: 20%;
   }
 
-  .six_page_free {
+  .six_page_footer .six_page_free {
     width: 78%;
     height: calc(80% + 20px);
     top: 80%;
@@ -355,13 +355,13 @@
     font-size: 18px;
   }
 
-  .red_block {
+  .six_page_footer .red_block {
     width: 60%;
     top: 155%;
     left: 19%;
   }
 
-  .seven_page_table {
+  .tab_container .seven_page_table {
     grid-template-columns: repeat(1, 470px);
   }
 
@@ -376,22 +376,22 @@
 }
 
 @media (max-width: 910px) {
-  .six_page_free {
+  .six_page_footer .six_page_free {
     height: calc(120% + 20px);
     top: 80%;
   }
 
-  .red_block {
+  .six_page_footer .red_block {
     top: 190%;
   }
 }
 
 @media (max-width: 750px) {
-  .six_page_free {
+  .six_page_footer .six_page_free {
     display: none;
   }
 
-  .red_block {
+  .six_page_footer .red_block {
     top: 100%;
   }
 }
@@ -403,12 +403,12 @@
 }
 
 @media (max-device-width: 630px) {
-  .footer_container {
+  .footer_information .footer_container {
     flex-direction: column;
     align-items: center;
   }
 
-  .footer_text1, .footer_text2, .footer_text3 {
+  .footer_text1, .footer_text2, .footer_information .footer_container .footer_text3 {
     margin-left: 0;
   }
 
@@ -478,7 +478,7 @@
     line-height: 15px;
   }
 
-  .menu {
+  .main .menu {
     display: none;
   }
 
@@ -586,12 +586,12 @@
     padding-top: 20px;
   }
 
-  .seven_page_table {
+  .tab_container .seven_page_table {
     grid-template-rows: repeat(4, 1fr);
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .seven_page_table_item {
+  .tab_container .seven_page_table .seven_page_table_item {
     width: 100%;
     padding: 0;
   }
@@ -661,11 +661,11 @@
     padding-top: 30px;
   }
 
-  .red_block {
+  .six_page_footer .red_block {
     display: none;
   }
 
-  .seven_page_table {
+  .tab_container .seven_page_table {
     margin-top: 0;
   }
 }
