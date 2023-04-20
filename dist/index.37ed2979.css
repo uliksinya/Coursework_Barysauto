@@ -1,0 +1,416 @@
+h3, h2 {
+  margin: 0;
+}
+
+@font-face {
+  font-family: Muller;
+  src: url("MullerLight.144fe1ad.ttf");
+}
+
+@font-face {
+  font-family: MullerBold;
+  src: url("MullerBlack.4b30023f.ttf");
+}
+
+.header h3 {
+  color: #000;
+  margin-top: 12px;
+  margin-left: 25px;
+  font-family: Muller;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.header_info h3 {
+  margin-left: 60px;
+}
+
+.header_info h2 {
+  text-align: center;
+  color: #1c1b18;
+  font-family: MullerBold;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 22px;
+}
+
+#menu h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #1c1b18;
+  font-family: Muller;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 13px;
+}
+
+.main_text h1 {
+  color: #1c1b18;
+  font-family: MullerBold;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 80px;
+}
+
+.red_container_first_page h3 {
+  color: #fff;
+  font-family: Muller;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 900;
+  line-height: 30px;
+}
+
+#kurse_bold {
+  color: #fff;
+  font-family: MullerBold;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 900;
+  line-height: 30px;
+}
+
+.additionally_info h3, .map_container h3 {
+  color: #1c1b18;
+  font-family: Muller;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.map_container h3 {
+  text-decoration-line: underline;
+}
+
+.content h2 {
+  color: #fff;
+  font-family: MullerBold;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 56px;
+}
+
+.tab_1_item h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #eb2629;
+  margin-top: 25px;
+  font-family: Muller;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 24px;
+}
+
+.tab_1_item h3 {
+  text-align: center;
+  color: #1c1b18;
+  margin-top: 15px;
+  font-family: Muller;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.tab_2_item h3 {
+  color: #fff;
+  margin-top: 100px;
+  margin-left: 38px;
+  font-family: Muller;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 28px;
+}
+
+.third_page h2 {
+  text-align: center;
+  color: #1c1b18;
+  padding-top: 50px;
+  font-family: MullerBold;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 56px;
+}
+
+.third_page h3 {
+  text-align: center;
+  color: #1c1b18;
+  font-family: Muller;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px;
+}
+
+.tab_item h3, .third_page_end_cell h3 {
+  text-align: center;
+  color: #000;
+  padding-top: 62px;
+  font-family: Muller;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+#fourth_page_black_text {
+  color: #1c1b18;
+  margin-left: 50px;
+  padding-top: 100px;
+}
+
+#fourth_page_additional_text {
+  color: #1c1b18;
+  font-family: Muller;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 56px;
+}
+
+#fourth_page_red_text {
+  color: #eb2629;
+  font-family: MullerBold;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 56px;
+}
+
+#list_text {
+  color: #1c1b18;
+  padding-top: 49px;
+  padding-bottom: 0;
+  padding-left: 59px;
+  font-family: Muller;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+li h3 {
+  color: #1c1b18;
+  font-family: Muller;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 24px;
+}
+
+#fourth_page_additional_text {
+  color: #1c1b18;
+  font-family: Muller;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 56px;
+}
+
+.six_page_title h2 {
+  text-align: center;
+}
+
+.six_page_table_item h4 {
+  color: #fff;
+  font-family: Muller;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 28px;
+}
+
+.six_page_table_item h3 {
+  color: #fff;
+  margin-top: 144px;
+  font-family: MullerBold;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 28px;
+}
+
+.six_page_free h3 {
+  color: #000;
+  margin-top: 15px;
+  margin-left: 72px;
+  font-family: Muller;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 34px;
+}
+
+#six_page_free_text {
+  text-align: center;
+  color: #1c1b18;
+  font-family: MullerBold;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 56px;
+}
+
+.red_block h2 {
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  font-family: MullerBold;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 50px;
+}
+
+#black {
+  color: #1c1b18;
+}
+
+#red {
+  color: #eb2629;
+}
+
+.seven_page_table_item h3 {
+  text-align: center;
+  color: #1c1b18;
+  margin-top: 100px;
+  font-family: MullerBold;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 28px;
+}
+
+.seven_page_table_item h4 {
+  text-align: center;
+  color: #1c1b18;
+  margin: 0;
+  font-family: Muller;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 28px;
+}
+
+.seven_page_title h2 {
+  color: #1c1b18;
+  margin-top: 136px;
+  font-family: MullerBold;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 56px;
+}
+
+.seven_page_add_text h3 {
+  color: #1c1b18;
+  margin-top: 28px;
+  font-family: Muller;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.seven_page_red_block h3 {
+  color: #fff;
+  padding-top: 19px;
+  padding-left: 22px;
+  font-family: MullerBold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 34px;
+}
+
+.phone_number h2 {
+  color: #1c1b18;
+  text-align: center;
+  padding-top: 16px;
+  font-size: 36px;
+}
+
+.phone_container h3 {
+  color: #000;
+  font-family: Muller;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  text-decoration-line: underline;
+}
+
+.footer_text1 h3, .footer_text2 h3 {
+  color: #1c1b18;
+  margin-bottom: 16px;
+  font-family: Muller;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.footer_text1 {
+  margin-left: 17px;
+}
+
+.footer_text2 {
+  margin-left: 89px;
+}
+
+.footer_text3 h2 {
+  text-align: right;
+  color: #1c1b18;
+  font-family: MullerBold;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 22px;
+}
+
+.footer_text3 h4 {
+  text-align: right;
+  color: #1c1b18;
+  font-family: Muller;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.footer_text3 h3 {
+  text-align: right;
+  color: #000;
+  font-family: Muller;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  text-decoration-line: underline;
+}
+
+.footer_end h3 {
+  text-align: center;
+  color: #000;
+  font-family: Muller;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+/*# sourceMappingURL=index.37ed2979.css.map */

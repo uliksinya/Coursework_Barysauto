@@ -1,0 +1,381 @@
+h3, h2{
+    margin: 0px;
+}
+@font-face {
+    font-family: 'Muller';
+    src: url(/fonts/MullerLight.ttf);
+}
+@font-face {
+    font-family: 'MullerBold';
+    src: url(/fonts/MullerBlack.ttf);
+}
+.header h3{
+    margin-left: 25px;
+    margin-top: 12px;
+
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+}
+.header_info h3{
+    margin-left: 60px;
+}
+.header_info h2{
+    font-family: 'MullerBold';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 22px;
+    text-align: center;
+    color: #1C1B18;
+}
+#menu h2{
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1C1B18;
+}
+.main_text h1{
+    font-family: 'MullerBold';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 80px;
+    color: #1C1B18;
+}
+.red_container_first_page h3{
+    font-family: 'Muller';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+#kurse_bold{
+    color: #fff;
+    font-family: MullerBold;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 30px;
+}
+.additionally_info h3,
+.map_container h3{
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #1C1B18; 
+}
+.map_container h3{
+    text-decoration-line: underline;
+}
+.content h2{
+    font-family: 'MullerBold';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+.tab_1_item h2{
+    margin-top: 25px;
+
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 24px;   
+    text-align: center;
+    text-transform: uppercase;
+    color: #EB2629;
+}
+.tab_1_item h3{
+    margin-top: 15px;
+
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #1C1B18;
+}
+strong{
+    font-weight: bold;
+}
+.tab_2_item h3{
+    margin-top:100px;
+    margin-left: 38px;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.third_page h2{
+    padding-top: 50px;
+    font-family: 'MullerBold';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 56px;
+    text-align: center;
+    color: #1C1B18;
+}
+.third_page h3{
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 56px;
+    text-align: center;
+    color: #1C1B18;
+}
+.tab_item h3, 
+.third_page_end_cell h3{
+    padding-top: 62px;  
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+}
+#fourth_page_black_text{
+    padding-top: 100px;
+    margin-left: 50px;
+    
+    color:#1C1B18;    
+}
+#fourth_page_additional_text{
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 56px;
+    color: #1C1B18;
+}
+#fourth_page_red_text {
+    font-family: 'MullerBold';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 56px;
+    color:rgba(235, 38, 41, 1);
+}
+#list_text{
+    padding-top: 49px;
+    padding-bottom:0px;    
+    padding-left: 59px;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1C1B18;
+}
+li h3{
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 15px;
+    line-height: 24px;
+    color: #1C1B18;
+}
+#fourth_page_additional_text{
+    color: #1c1b18;
+    font-family: Muller;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 56px;
+}
+.six_page_title h2{
+    text-align: center;
+}
+.six_page_table_item h4{
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.six_page_table_item h3{
+    margin-top: 144px;
+    font-family: 'MullerBold';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.six_page_free h3{
+    margin-left: 72px;
+    margin-top: 15px;
+    
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 34px;
+    color: #000000;
+}
+#six_page_free_text{
+    font-family: 'MullerBold';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 56px;
+    text-align: center;
+    color: #1C1B18;
+}
+.red_block h2{
+    margin-top:20px;
+    font-family: 'MullerBold';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 50px;
+    color: #FFFFFF;
+    text-align: center;
+}
+#black{
+    color:#1C1B18;
+}
+#red{
+    color:#EB2629;
+}
+.seven_page_table_item h3{
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'MullerBold';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 28px;
+    color:#1C1B18;
+}
+.seven_page_table_item h4{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 28px;
+    color:#1C1B18;
+}
+.seven_page_title h2{
+    margin-top: 136px;
+    font-family: 'MullerBold';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 56px;
+    color: #1C1B18;
+}
+.seven_page_add_text h3{
+    margin-top: 28px;
+
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 28px;
+    color: #1C1B18;
+}
+.seven_page_red_block h3{
+    padding-top: 19px;
+    padding-left: 22px;
+
+    font-family: 'MullerBold';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 34px;
+    color: #FFFFFF;
+
+}
+.phone_number h2{
+    padding-top: 16px;
+    color:#1C1B18;
+    text-align: center;
+    font-size: 36px;
+}
+.phone_container h3{
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.footer_text1 h3,
+.footer_text2 h3{
+    margin-bottom: 16px;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1C1B18;
+}
+.footer_text1{
+    margin-left: 17px;
+}
+.footer_text2 {
+    margin-left: 89px;
+}
+.footer_text3 h2{
+    font-family: 'MullerBold';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 22px;
+    text-align: right;
+    color: #1C1B18;
+}
+.footer_text3 h4{
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right;
+    color: #1C1B18;
+}
+.footer_text3 h3{
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.footer_end h3{
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000; 
+}
+
+
+

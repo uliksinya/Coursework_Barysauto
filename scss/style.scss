@@ -1,0 +1,568 @@
+// -----First Page----
+.first_page{
+    width: 100%;
+    height: 702px;
+    background:#E5E5E5;
+}    
+.header{
+    width: 100%;
+    height: 60px;
+    background:rgba(255, 255, 255, 1);   
+}
+.header_content{
+    display: flex;   
+    width:61%;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;   
+    position: relative; 
+}
+.header_info{
+    position: absolute;
+    top:0px;
+    bottom:8px;
+    right: 0px;
+}
+#logo{    
+    margin-top: 10px;
+}
+.content{
+    width: 63%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;   
+}
+.menu{
+    width: 63%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    z-index: 99;
+}
+.first_page_content{
+    margin-top: 52px;
+    z-index: 999;
+    position: relative;
+}
+.map_container{
+    margin-top: 38px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.map_href{
+    margin-left: 31px;
+}
+.main{
+    position: relative;
+}
+.first_page_image{
+    position: absolute;
+    top:-20px;
+    right:0px;
+    width: 100vw;    
+    height: 640px;
+    background-size: cover;
+    background-image: url(/img/background.png); /* fallback */
+    background-image: linear-gradient(to right, #F9F9F9 26.18%, rgba(255, 255, 255, 0) 72.84%), url(/img/background.png);
+    z-index:9;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;        
+}
+#toyota{
+    position: absolute;
+    top: -2vh;
+    right: 40px;
+    z-index: 7;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+#highlight{
+    position:absolute;
+    top:200px;
+    right:350px;
+    z-index: 9;
+}
+.red_container_first_page{
+    padding-left: 28px;
+    margin-top: 8px;
+    position: absolute;
+    top:67%;
+    right:17%;
+    width: 399px;
+    height: 101px;
+    background: #EB2629;
+    box-shadow: 0px 4px 25px rgba(28, 27, 24, 0.15);
+    z-index:9;
+}
+
+
+// -----Second Page----
+.second_page_background{    
+    background-size: auto 100%; /* ширина автоматически подстраивается, а высота остается 100% */
+    width: 100%;
+    height: 1255px;    
+    background-image: url('/img/Rectangle_1.png');
+    background-color: #e5e5e5;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#text_1_second_page{
+    padding-top: 68px;
+}
+.tab_1{
+    margin-top: 45px;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.tab_1_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 35px #535352;
+    padding: 0px 10px 27px 9px;
+}
+#text_2_second_page{
+    margin-top: 107px;
+}
+.tab_2{
+    margin-top: 30px;
+    gap: 30px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(1, 1fr); 
+    align-items: stretch;
+}
+.tab_2_item{
+    padding-bottom: 30px;
+    border: 1px solid #EB2629;
+    border-bottom-width: 10px;
+    box-sizing:border-box;
+    position: relative;
+}
+#first_item, #second_item, #third_item{
+    position: absolute;
+    top:10px;
+    left:10px;
+}
+
+
+// -----Third Page----
+.third_page{
+    width: 100%;
+    height: auto;
+    background: #E5E5E5;    
+}
+#ford{
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    margin-top: -120px;
+    position: relative;
+    z-index: 9999;
+}
+.third_page_tab{
+    margin-top: 62px;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr); 
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px; 
+    grid-row-gap:54px;
+    align-items: stretch;
+}
+.tab_item{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+    position: relative;
+    padding-bottom: 39px;
+    padding-left:17px;
+    padding-right:18px;
+}
+.third_page_end_cell{
+    position: relative;
+    margin-top: 54px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 30px 39px 9px;
+    width: 40vw;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+}
+.tab_item, .third_page_end_cell{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.tab_item::before, 
+.third_page_end_cell::before{
+    content: ""; 
+    position: absolute;
+    top:-30px;
+    width: 61px; 
+    height: 61px; 
+    background-image: url(/img/tick.png); 
+    background-size: cover; 
+}
+
+
+// -----Fourth Page----
+.fourth_page{
+    width: 100%;
+    height: auto;
+    background: #E5E5E5;
+    position: relative;
+}
+#volkswagen{    
+    position: absolute;
+    top:-6%;
+    right:0px;
+    width:auto;
+    height: auto;
+    z-index: 9;
+}
+.list{
+    margin-top: 30px;
+    box-sizing: border-box;
+    border: 10px solid #EB2629;
+    height: auto;
+    padding-right: 63px;
+}
+.list_2_item{
+    display:flex;
+    align-items:center;
+}
+li::before{
+    content:url(/img/point.png);
+    position: absolute;
+    left:-17px;
+}
+ul{
+    list-style-type:none;
+    li{
+        position: relative;
+        margin-bottom: 20px;
+        margin-left: 40px;        
+    }
+}
+
+// -----Fifth Page----
+.fifth_page{
+    width: 100%;
+    height: auto;
+    background-color:  #E5E5E5;
+    background-image: url(/img/background_2.png); 
+    background-size: 1920px 676px;
+    background-position: bottom;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+#fifth_page_title{
+    padding-top: 92px;
+}
+#list_2{
+    margin-top:19px;
+    margin-bottom: 0px;
+}
+.list_2 li{
+    position: relative;
+}
+#one::before{
+    content:url(/img/_1_.png);
+    position: absolute;
+    left:-25px;
+}
+#two::before{
+    content:url(/img/_2_.png);
+    position: absolute;
+    left:-25px;
+}
+#three::before{
+    content:url(/img/_3_.png);
+    position: absolute;
+    left:-25px;
+}
+#four::before{
+    content:url(/img/_4_.png);
+    position: absolute;
+    left:-25px;
+}
+#five::before{
+    content:url(/img/_5_.png);
+    position: absolute;
+    left:-25px;
+}
+#six::before{
+    content:url(/img/_6_.png);
+    position: absolute;
+    left:-25px;
+}
+#seven::before{
+    content:url(/img/_7_.png);
+    position: absolute;
+    left:-25px;
+}
+#eight::before{
+    content:url(/img/_8_.png);
+    position: absolute;
+    left:-25px;
+}
+.fifth_page{
+    position:relative;
+}
+#wheels{
+    position:absolute;
+    right:0px;    
+    bottom:-100px;
+}
+
+
+// -----Sixth Page----
+.six_page_background{
+    background-image:url(/img/background_3.png);
+    background-color:#E5E5E5;
+    background-size: 100% 100%; 
+    width: 100%;
+    height: 1700px;    
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.six_page_title{
+    padding-top: 147px;
+}
+.six_page_table{
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    align-items: stretch;
+    grid-column-gap: 30px;
+    grid-row-gap: 49px;    
+}
+.six_page_table_item{
+    position: relative;
+    border:1px solid  #EB2629;
+    border-bottom: 10px solid  #EB2629;
+    padding-left:25px;
+    padding-right: 18px;
+}
+#first_icon::before{
+    content:url(/img/icon_1.png);
+    position: absolute;    
+    left: calc(50% - 153px/2);
+    top:-34px;    
+}
+#second_icon::before{
+    content:url(/img/icon_2.png);
+    position: absolute;
+    left:calc(50% - 212px/2);
+    top:-49px;
+}
+#third_icon::before{
+    content:url(/img/icon_3.png);
+    position: absolute;
+    left:calc(50% - 278px/2);
+    top:-63px;
+}
+#fourth_icon::before{
+    content:url(/img/icon_4.png);
+    position: absolute;
+    left:calc(50% - 196px/2);
+    top:-28px;
+}
+#fifth_icon::before{
+    content:url(/img/icon_5.png);
+    position: absolute;
+    left:calc(50% - 251px/2);
+    top:-21px;
+}
+#six_icon::before{
+    content:url(/img/icon_6.png);
+    position: absolute;
+    left:calc(50% - 168px/2);
+    top:-30px;
+}
+#red_car{
+    margin-top: -12vh;  
+    width: auto;
+    height: auto;  
+}
+.content{
+    position: relative;
+}
+.six_page_free{
+    position: absolute;
+    width: 47%;
+    height: 235px;
+    background:#FFFFFF;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+    right:18.5%;
+    top:125px;
+    z-index:9;
+}
+.six_page_footer{
+    position:relative;
+}
+.red_block{
+    position: absolute;
+    width: 748px;
+    height: auto;
+    background: #EB2629;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+    top:55%;
+    left:38vw;
+    z-index: 99;
+}
+#keys{
+    position: absolute;
+    z-index:999; 
+    top:70%;
+    left:26vw;
+}
+
+
+// -----Seventh Page----
+.seven_page{
+    width: 100%;
+    height: auto;
+    background: #E5E5E5;
+}
+#advantages{
+    text-align: center;
+    padding-top: 125px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.seven_page_table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns: repeat(2, 470px);
+    grid-template-rows: repeat(2, 200px);
+    grid-column-gap: 30px;
+    grid-row-gap: 33px;    
+}
+.seven_page_table_item{
+    position:relative;
+    background:#FFFFFF;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+    padding-left:64px;
+    padding-right: 53px;
+}
+.tab_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seven_page_first_icon::before{
+    content:url(/img/icon_2_1.png);
+    position: absolute;
+    left:182px;
+    top:-18px;
+}
+#seven_page_second_icon::before{
+    content:url(/img/icon_2_2.png);
+    position: absolute;
+    left:200px;
+    top:19px;
+}
+#seven_page_third_icon::before{
+    content:url(/img/icon_2_3.png);
+    position: absolute;
+    left:189px;
+    top:8px;
+}
+#seven_page_fourth_icon::before{
+    content:url(/img/icon_2_4.png);
+    position: absolute;
+    left:184px;
+    top:8px;
+}
+.seven_page_red_block{
+    margin-top: 50px;
+    width: 470px;
+    height: 109px;
+    background: #EB2629;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
+}
+.phone_number{
+    margin-left: 39px;
+    width: 431px;
+    height: 78px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+.phone_number::before{
+    position: absolute;
+    content:url(/img/phone.png);
+    top:31px;
+    left:34px;
+}
+a{
+    text-decoration: none;
+}
+.phone_container{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    padding-bottom: 120px;
+}
+#map_2, #map_text{
+    margin-left: 15px;
+}
+.seven_page{
+    position: relative;
+}
+#red_car_2{
+    position: absolute;
+    top: 55%;
+    right: -1vw;
+}
+
+// -----Footer----
+#footer_map{
+    max-width: 100%;
+    height: auto;
+}
+#footer_logo{
+    width:370px;
+    height: 140px;
+}
+.footer_container{
+    width: auto;
+    padding-top: 56px;
+    display: flex;
+    flex-direction: row;
+    padding-left:18%;
+    padding-right: 18%;
+}
+.footer_text3{
+    margin-left: 30px;
+}
+.footer_information{
+    background: #E5E5E5;
+}
+.footer_end{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 100%;
+    height: 72px;
+}
+
+
